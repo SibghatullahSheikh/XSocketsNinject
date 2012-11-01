@@ -19,7 +19,7 @@ namespace XSocketHandler
 
         public PersonController()
         {
-            //When a new insatnce/connection is made get the Service
+            //When a new instance/connection is made get the Service
             this.PersonService = kernel.Get<PersonService>();
         }
 
