@@ -5,6 +5,8 @@ XSockets Ninject Guide
 If you already have service and repository layers you might want to use them from XSockets instead of writing new logic.
 Many solutions uses Ninject for IoC and in this example I show howto boost your existing architecture to realtime.
 
+The example architecture is based on EntityFramework CodeFirst together with UnitOfWork and RepositoryPattern
+
 # For who´?
 Anyone interested in realtime development with knowledge of C# and JavaScript
 

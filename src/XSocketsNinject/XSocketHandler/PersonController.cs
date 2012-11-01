@@ -8,7 +8,7 @@ namespace XSocketHandler
 {
     public class PersonController : XSocketController
     {
-        [Inject] private IPersonService PersonService;
+        private IPersonService PersonService;
 
         private static IKernel kernel;
         static PersonController()
