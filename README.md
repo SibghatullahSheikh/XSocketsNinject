@@ -18,11 +18,10 @@ Anyone interested in realtime development with knowledge of C# and JavaScript
 __________________________________________
 - Note: Here is where you probably come in... You have your architecture, I built my own above.
 - Ran "Install-Package XSockets"
-- Ran "Scaffold XSocketHandler PersonController" (gives me a new plugin in the XSocketHandler project)
-- Ran "Install-Package Ninject" on both my XsocketHandler project and the project starting the XSockets Server.
-	In this case the MVC3 project.
-- Added references to the Core, Data and Service project into the MVC3 project. Needed in the project starting XSockets.
-- Wrote a Ninject Module (see ServiceModule in the XsocketHandler project)
+- Ran "Scaffold XSocketController XControllers\PeopleController" (gives me a new plugin in the webproject under XControllers)
+- Ran "Install-Package Ninject" on my MVC project.
+- Added references to the Core, Data and Service project into the MVC3 project.
+- Wrote a Ninject Module (see ServiceModule under XControllers in MVC project)
 - Wrote my plugin (PersonController) and used my ServiceLayer as always.
 
 - Also added a test page in the root of my MVC3 project (default.htm)
