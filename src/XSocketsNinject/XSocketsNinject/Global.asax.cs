@@ -27,6 +27,7 @@ namespace XSocketsNinject
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
+
             routes.MapRoute("Fallback", "{controller}/{action}", new { controller = "Fallback", action = "Init" }, new[] { "XSockets.Longpolling" });
         }
 
@@ -36,7 +37,7 @@ namespace XSocketsNinject
 
             RegisterGlobalFilters(GlobalFilters.Filters);
             RegisterRoutes(RouteTable.Routes);
-            new XSockets.DevServer.DebugInstance();
+
         }
     }
 }

@@ -2,18 +2,27 @@
 <html>
 <head>
     <title></title>
-    <script src="/Scripts/jXSockets.2.0.3.js" type="text/javascript"></script>
-    <script src="/Scripts/jquery-1.7.2.js" type="text/javascript"></script>
-    
+    <script src="Scripts/jquery-1.9.1.js"></script>
+    <script src="Scripts/XSockets.latest.js"></script>
     <script type="text/javascript">
         var ws = null;
         $(function () {
-            ws = new XSockets.WebSocket("ws://127.0.0.1:4502/PersonController");
+            ws = new XSockets.WebSocket("ws://127.0.0.1:4502/PeopleController");
 
             ws.bind(XSockets.Events.open, function (client) {
                 console.log('OPEN', client);
 
-                ws.publish('test', { Name:'@ulfbjo', Location:'Tellus and Twitter'});
+                ws.on(XSockets.Events.onError, function(err) {
+                    console.log('Error', err);
+                });
+
+                ws.on('test', function (data) {                    
+                    console.log('Person saved', data);
+                }, function () {
+                    //Confirmed that the binding is done. Now save a person (for test)
+                    ws.publish('test', { Name: '@ulfbjo', Location: 'Tellus and Twitter' });
+                });
+
             });
         });
 

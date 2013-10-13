@@ -1,11 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSocketsNinject", "XSocketsNinject\XSocketsNinject.csproj", "{120F65E2-18B0-4A04-B7C4-F568F79F3BBC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSockets.DevServer", "XSockets.DevServer\XSockets.DevServer.csproj", "{C8976AD2-08C1-4F19-8C0A-0DDD83593C2E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSocketHandler", "XSocketHandler\XSocketHandler.csproj", "{9AE3D681-A0F4-43B1-8F9B-7B48463EE24C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSocketsNinject.Core", "XSocketsNinject.Core\XSocketsNinject.Core.csproj", "{B7E338F2-B67C-4C9F-8ADF-2D7A47A97A43}"
 EndProject
@@ -23,14 +19,6 @@ Global
 		{120F65E2-18B0-4A04-B7C4-F568F79F3BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{120F65E2-18B0-4A04-B7C4-F568F79F3BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{120F65E2-18B0-4A04-B7C4-F568F79F3BBC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C8976AD2-08C1-4F19-8C0A-0DDD83593C2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C8976AD2-08C1-4F19-8C0A-0DDD83593C2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C8976AD2-08C1-4F19-8C0A-0DDD83593C2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C8976AD2-08C1-4F19-8C0A-0DDD83593C2E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9AE3D681-A0F4-43B1-8F9B-7B48463EE24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AE3D681-A0F4-43B1-8F9B-7B48463EE24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AE3D681-A0F4-43B1-8F9B-7B48463EE24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AE3D681-A0F4-43B1-8F9B-7B48463EE24C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7E338F2-B67C-4C9F-8ADF-2D7A47A97A43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7E338F2-B67C-4C9F-8ADF-2D7A47A97A43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7E338F2-B67C-4C9F-8ADF-2D7A47A97A43}.Release|Any CPU.ActiveCfg = Release|Any CPU
